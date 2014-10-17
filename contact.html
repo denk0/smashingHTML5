@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts US - Smashing HTML5!</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="wrap">
+		<header class="header-top">
+			<a class="logo" href="index.html">Smashing HTML5!</a>
+			<h4 class="motto">HTML5 in year <s>2022</s> <u>2014</u></h4>
+		</header>
+		<nav>
+			<ul class="nav cf">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About US</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<section>
+			<header>
+				<h1>Contacts US</h1>
+			</header>
+			<article>
+				<form method="post">
+					<div class="form-row">
+						<label for="user_name">Your Name</label>
+						<input required type="text" id="user_name" maxlength="5" name="user_name" placeholder="Your Name">
+						<label for="user_email">Your E-mail</label>
+						<input required type="text" id="user_email" maxlength="7" name="user_email" placeholder="Your E-mail">
+					</div>
+					<div class="form-row">
+						<label for="user_message">Your Message</label>
+						<textarea required rows="10" cols="50" name="user_message" id="user_message" placeholder="Your Message"></textarea>
+					</div>
+					<div>
+						<label>Send Copy<input type="checkbox" name="send_copy" /></label>
+					</div>
+					<div class="form-row">
+						<button type="submit">Send</button>
+					</div>
+					
+				</form>
+			</article>
+		</section>
+
+		<aside>
+			<h3 class="widget_title">Blogroll</h3>
+			<ul class="links cf">
+				<li><a href="">HTML5 Doctor</a></li>
+				<li><a href="">HTML5 Spec</a></li>
+				<li><a href="">Beetroot Academy</a></li>
+				<li><a href="">W3C</a></li>
+				<li><a href="">Java Script</a></li>
+				<li><a href="">Beetroot Academy</a></li>
+				<li><a href="">Wordpress</a></li>
+				<li><a href="">HTML5</a></li>
+			</ul>
+		</aside>
+		<section class="cf">
+			<div class="left">
+				<a title="Beetroot Academy" class="footer-logo" href="index.html">Beetroot Academy</a>
+				<h4>Amazing Magazine</h4>
+			</div>
+			<div class="right">
+				<p>Beetroot Magazine is a website and blog that offers resources and advice to web developers and web designers.</p>
+			</div>
+		</section>
+		<footer>
+			<p>2014 <a href="index.html">Beetroot Academy</a></p>
+		</footer>
+	</div>
+</body>
+</html>
